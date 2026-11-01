@@ -48,15 +48,13 @@ cd cmdcleaner
 cargo install --path .
 ```
 
-<!--
 After the first release (see the dist setup), put the one-line installers here:
 
-macOS / Linux:
+### macOS / Linux:
+```bash
 curl --proto '=https' --tlsv1.2 -LsSf https://github.com/omniex/cmdcleaner/releases/latest/download/cmdcleaner-installer.sh | sh
+```
 
-Homebrew:
-brew install omniex/tap/cmdcleaner
--->
 
 ## Usage
 
