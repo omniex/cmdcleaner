@@ -1,0 +1,17 @@
+[package]
+name = "cmdcleaner"
+version = "0.1.0"
+edition = "2024"
+description = "Disk usage analyzer for the terminal: biggest files, stats by extension, folder sizes, charts"
+license = "MIT"
+repository = "https://github.com/omniex/cmdcleaner"
+readme = "README.md"
+keywords = ["disk", "cleanup", "cli", "du", "storage"]
+categories = ["command-line-utilities", "filesystem"]
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+colored = "3.1.1"
+humansize = "2.1.3"
+indicatif = "0.18.6"
+walkdir = "2.5.0"
